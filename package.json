@@ -1,7 +1,7 @@
-{
-  "name": "multi-llm-ts",
+{  "name": "multi-llm-ts",
   "version": "4.0.0-beta.11",
   "description": "Library to query multiple LLM providers in a consistent way",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nbonamy/multi-llm-ts.git"
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.4",
+    "@types/node": "^24.0.1",
     "@typescript-eslint/eslint-plugin": "^8.19.0",
     "@typescript-eslint/parser": "^8.19.0",
     "@vitest/coverage-v8": "^2.1.8",
@@ -39,7 +40,7 @@
     "jsdom": "^26.0.0",
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2",
+    "typescript": "^5.8.3",
     "vitest": "^2.1.8"
   },
   "dependencies": {
@@ -50,6 +51,6 @@
     "groq-sdk": "^0.16.0",
     "minimatch": "^10.0.1",
     "ollama": "^0.5.15",
-    "openai": "^4.87.3"
+    "openai": "^4.104.0"
   }
 }
